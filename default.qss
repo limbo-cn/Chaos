@@ -1,0 +1,69 @@
+
+/*-视频关闭按钮-*/
+QPushButton#v_close{
+    border-radius:5px;
+}
+/*-----*/
+
+/*-按钮-*/
+QPushButton#mainbtn{
+    border-radius:2px;
+width: 100px;
+height: 34px;
+color: white;
+background-color: #3385ff;
+border-bottom: 1px solid #2d78f4;
+}
+
+QPushButton#mainbtn:hover{
+border-radius:2px;
+width: 100px;
+height: 34px;
+color: white;
+background-color: #317ef3;
+border-bottom: 1px solid #2d78f4;
+}
+QPushButton#mainbtn:pressed{
+border-radius:2px;
+width: 100px;
+height: 34px;
+color: white;
+background-color: #3075dc;
+border-bottom: 1px solid #2d78f4;
+}
+/*-----*/
+
+
+
+
+/*-进度条-*/
+QProgressBar#mybar{
+border:none;
+border-radius:2px;
+width:700px;
+height:20px;
+text-align: center;
+}
+QProgressBar#mybar::chunk {
+    border:none;
+    border-radius:2px;
+    background-color: #3385ff;
+}
+QProgressBar#mybar::chunk:hover {
+    border:none;
+    border-radius:2px;
+    background-color: #2d78f4;
+}
+/*------*/
+
+
+
+
+QListView::item:selected {
+    background: #1ab8f3;
+}
+
+
+QListView::item:hover {
+background: #6ecff5;
+}
