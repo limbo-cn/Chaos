@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>bc.jpg</file>
+        <file alias="mainico">ico1.ico</file>
+        <file>close.ico</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file alias="default">default.qss</file>
+    </qresource>
+</RCC>
